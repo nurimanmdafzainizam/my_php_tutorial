@@ -1,0 +1,67 @@
+<?php
+
+// ==========================================
+// VIDEO 5 - STRINGS
+// ==========================================
+//
+// A string is a piece of text.
+// Strings can be written using single quotes
+// or double quotes.
+//
+// Example:
+// "Hello World"
+// 'Hello World'
+//
+// We can store strings inside variables.
+//
+// We can also join (concatenate) strings
+// together using the dot (.) operator.
+//
+// ==========================================
+
+
+// STRING VARIABLE
+
+$name = "Isyia";
+
+echo $name;
+
+
+// SINGLE QUOTES AND DOUBLE QUOTES
+
+echo "<br>";
+echo "Hello World!";
+
+echo "<br>";
+echo 'This is also a string.';
+
+
+// CONCATENATING STRINGS
+
+$firstName = "Isyia";
+$lastName = "Batrisyia";
+
+echo "<br>";
+echo $firstName . " " . $lastName;
+
+
+// CONCATENATING TEXT WITH A VARIABLE
+
+$age = 19;
+
+echo "<br>";
+echo "My name is " . $name . " and I am " . $age . " years old.";
+
+
+// STRING FUNCTIONS
+
+echo "<br>";
+echo strlen($name);
+
+echo "<br>";
+echo strtoupper($name);
+
+echo "<br>";
+echo strtolower($name);
+
+?>

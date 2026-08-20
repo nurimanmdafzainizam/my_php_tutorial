@@ -1,0 +1,32 @@
+<?php
+
+// VIDEO 8 - MULTIDIMENSIONAL ARRAYS
+
+// A multidimensional array is an array
+// that contains more than one array.
+//
+// It is useful when we want to store
+// related information together.
+//
+// Example: storing students and their ages
+// in the same array.
+//
+// The first [ ] is used to choose the array.
+// The second [ ] is used to choose the value.
+//
+// Arrays start counting from 0.
+//
+// So [0][0] means the first value
+// from the first array.
+
+
+// SIMPLE EXAMPLE
+
+$students = [
+    ["Ali", 20],
+    ["Sara", 19]
+];
+
+echo $students[0][0];
+
+?>

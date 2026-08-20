@@ -1,0 +1,71 @@
+<?php
+
+// ==========================================
+// VIDEO 6 - NUMBERS
+// ==========================================
+//
+// PHP can work with numbers.
+//
+// There are two common types of numbers:
+// 1. Integer - whole numbers
+// 2. Float - numbers with decimal points
+//
+// We can also perform mathematical operations
+// such as addition, subtraction, multiplication,
+// division and finding the remainder.
+//
+// ==========================================
+
+
+// INTEGER
+
+$age = 19;
+
+echo $age;
+
+
+// FLOAT
+
+$price = 19.90;
+
+echo "<br>";
+echo $price;
+
+
+// BASIC MATH
+
+$num1 = 10;
+$num2 = 5;
+
+echo "<br>";
+echo $num1 + $num2; // Addition
+
+echo "<br>";
+echo $num1 - $num2; // Subtraction
+
+echo "<br>";
+echo $num1 * $num2; // Multiplication
+
+echo "<br>";
+echo $num1 / $num2; // Division
+
+echo "<br>";
+echo $num1 % $num2; // Remainder
+
+
+// ORDER OF OPERATIONS
+
+$result = 10 + 5 * 2;
+
+echo "<br>";
+echo $result;
+
+
+// USING BRACKETS
+
+$result2 = (10 + 5) * 2;
+
+echo "<br>";
+echo $result2;
+
+?>

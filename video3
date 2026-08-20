@@ -1,0 +1,14 @@
+<?php
+
+// VIDEO 3
+// PHP code is written inside <?php and ?> tags.
+// The echo statement is used to display text.
+// PHP statements end with a semicolon (;).
+
+echo "Hello World!";
+
+echo "<br>";
+
+echo "This is my first PHP file.";
+
+?>

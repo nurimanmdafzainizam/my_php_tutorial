@@ -1,0 +1,39 @@
+<?php
+
+// ==========================================
+// VIDEO 4 - VARIABLES & CONSTANTS
+// ==========================================
+//
+// Variables are used to store information.
+// In PHP, variables start with the $ symbol.
+//
+// Example:
+// $name = "Isyia";
+//
+// A variable can store different types of data,
+// such as strings, numbers and booleans.
+//
+// Constants are values that cannot be changed
+// after they have been created.
+//
+// ==========================================
+
+
+// VARIABLES
+
+$name = "Isyia";
+$age = 19;
+
+echo $name;
+echo "<br>";
+echo $age;
+
+
+// CONSTANT
+
+define("COURSE", "Creative Multimedia");
+
+echo "<br>";
+echo COURSE;
+
+?>

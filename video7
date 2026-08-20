@@ -1,0 +1,23 @@
+<?php
+
+// VIDEO 7 - ARRAYS
+
+// An array can store multiple values
+// in one variable.
+
+$names = ["Isyia", "Ali", "Amin"];
+
+echo $names[0];
+echo "<br>";
+echo $names[1];
+echo "<br>";
+echo $names[2];
+
+// We can also add a new value
+
+$names[] = "Sara";
+
+echo "<br>";
+echo $names[3];
+
+?>

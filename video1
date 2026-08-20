@@ -1,0 +1,12 @@
+<?php
+
+// VIDEO 1
+// PHP is a server-side scripting language.
+// PHP is mainly used to create dynamic websites.
+// PHP code is processed on the server.
+// PHP can work together with HTML.
+// PHP files use the .php extension.
+
+echo "Hello, PHP!";
+
+?>

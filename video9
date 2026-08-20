@@ -1,0 +1,40 @@
+<?php
+
+// VIDEO 9 - LOOPS
+
+// A loop is used to repeat code.
+//
+// Loops are useful when we want to do
+// the same thing many times.
+//
+// A for loop repeats code for a certain
+// number of times.
+//
+// A foreach loop is useful for going
+// through all the values in an array.
+
+
+// FOR LOOP
+
+for ($i = 0; $i < 5; $i++) {
+    echo $i;
+}
+
+
+// FOREACH LOOP
+
+$names = ["Ali", "Sara", "Amin"];
+
+foreach ($names as $name) {
+    echo "<br>";
+    echo $name;
+}
+
+
+// $i is used as a counter in the for loop.
+// The loop stops when the condition is false.
+//
+// foreach gets each value from the array
+// one by one.
+
+?>
